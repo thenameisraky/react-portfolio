@@ -1,0 +1,227 @@
+*{
+    /* margin: 0px;
+    padding: 0px; */
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+    body
+    {
+        /* background-image: url(back.jpeg); */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px ;
+        background-color: #333;
+        backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* z-index: 100; */
+    }
+     .logo
+    {
+        font-size: 38px;
+        color: white;
+        font-weight: 600;
+        transition: 0.3s ease;
+    }
+    .logo:hover{
+        color:orangered;
+        text-shadow: 0 0 25px orangered,
+                        0 0 50px orangered;
+                        transform:scale(1.1);
+    }
+    #span
+    {
+        color:orangered;
+        font-size: 55px;
+    }
+    #strong
+    {
+        font-size: 55px;
+    }
+
+    span
+    {
+        color:orangered; 
+    }
+    span:hover
+    {
+        text-shadow: 3px 3px 6px orangered;
+    }
+    .navbar a{
+        font-size: 20px;
+        color:white;
+        font-weight: 500;
+        margin: 0 15px;
+        border-bottom: 3px solid transparent;
+        transition: 0.3s ease;
+    }
+    .navbar a:hover,
+    .navbar a.active{
+        color: orangered;
+        border-bottom: 3 px solid orangered;
+    }
+    .contact
+    {
+        padding: 10px 28px;
+        background-color: white;
+        color: black;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+    }
+   .contact:hover{
+        background-color: orangered;
+    } 
+    #sec
+    {
+        margin-top: 100px;
+        font-size: 18px;
+        line-height: 40px;
+        
+    }
+    #sec p
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+   
+    #sec h1
+    {
+        color:dimgray;
+    }
+    
+    #btm{
+        margin-top: 40px;
+    }
+    p{margin-left: 40px; font-size: 15px;
+    line-height: 20px;
+    }
+    
+    #acad
+    {
+        margin: 80px;
+    font-size: 25px;
+    }
+    table
+    {
+        border-collapse: collapse;
+        height: 300px;
+        width: 800px;
+        border-color: rgb(255, 11, 3);
+    }
+    #dl{
+        margin: 80px;
+        
+    }
+    
+    #con
+    {
+        margin-top: 90px;
+
+    }
+    #con h1
+    {
+        text-align: center;
+    }
+    form
+    {
+        text-align: center;
+        
+    }
+    input 
+    {
+        background-color: black;
+        color:white
+    }
+    input[type="email"]
+    {
+        color: wheat;
+    }
+    #footer
+    {
+        margin-top:100px;
+    }
+    #footer a
+    {
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #an{margin: 30px;}
+    #pro{
+        margin-top: 90px;
+        line-height: 28px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #pro h2{margin-left: 20px;}
+    #pro h3{margin-left: 40px;}
+    #git{width: 40px;height: 40px; }
+    #git:hover{border: 2px solid orangered;
+    border-radius: 50%;}
+#img{
+    float: right;
+    
+    width: 260px;
+    height: 260px;
+    margin-right: 40px;
+    border: 8px solid transparent;
+    border-radius: 50%;
+    
+}
+#inp{
+    width: 100px;
+    height: 30px;
+    font-style: oblique;
+    background-color: orangered;
+    border:1px solid black;
+    border-radius: 10%;
+    
+
+}
+#inp:hover
+{
+    background-color:white ;
+    color: orangered;
+    border: 1px solid transparent;
+}
+#fre
+{
+    margin: 150px 0px 0px 0px ;
+}
+#tec
+{
+    margin: 90px  0 0 0;
+}
+#tec h2
+{
+    color: orangered;
+}
+#tec h1:hover 
+{
+    text-shadow: 3px 4px 8px orangered;
+}
+strong
+{
+    font-weight: bold;
+    font-size: 20px;
+    font-size: 18px;
+}
+strong:hover
+{
+    color: orangered;
+    text-shadow: 3px 5px 8px orangered;
+}
